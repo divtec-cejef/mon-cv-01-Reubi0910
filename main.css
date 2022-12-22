@@ -1,0 +1,21 @@
+body {
+    background-color: #383942;
+    background: no-repeat url("../images/primo.jpg");
+    @font-face {
+        font-family: 'Roboto', sans-serif;
+    }
+}
+h1 {
+    color: green;
+    text-align: center;
+}
+p,li {
+    background-color: darkred;
+    box-shadow: 10px 10px 5px gray;
+    margin-right: 30%;
+}
+h2 {
+    color : yellowgreen;
+    background-color: #383942;
+    margin-right: 60%;
+}
