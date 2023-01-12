@@ -2,10 +2,6 @@ body {
     background-color: #383942;
     background: no-repeat url("../images/primo.jpg");
 
-    @font-face {
-        font-family: 'Roboto', sans-serif;
-    }
-
 }
 
 h1 {
@@ -14,13 +10,25 @@ h1 {
 }
 
 p,li {
+    font-family: Roboto , sans-serif;
+    font-weight: normal;
     background-color: darkred;
     box-shadow: 10px 10px 5px gray;
     margin-right: 30%;
+    color: mediumpurple;
 }
 
 h2 {
+    align: center;
+    font-family: Roboto, sans-serif;
+    font-weight: bold;
     color : yellowgreen;
     background-color: #383942;
     margin-right: 60%;
+}
+
+a {
+    font-family: Roboto, sans-serif;
+    font-weight: normal;
+    color: dodgerblue;
 }
